@@ -24,5 +24,7 @@ void main()
     if(a[mid]=item)
     printf("\n\n %d found at location %d",item, mid+1 );
     else
+    {
     printf("\n\n %d doesn't exist", item);
+    }
 }
