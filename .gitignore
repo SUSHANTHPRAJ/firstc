@@ -1,4 +1,11 @@
 .vscode
+*.exe*
 *.obj
+*.tlog
+*.log
+*.idb
+*.ilk
 *.pdb
 bin
+.vs/
+*.vcxproj.*
