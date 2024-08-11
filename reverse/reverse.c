@@ -2,6 +2,8 @@
 // 2. 2-digit random numbers
 // 3. Create a pull requests
 
+// Comment
+
 #include<stdio.h>
 #include<stdlib.h>
 void revarray(int* array, int size)
