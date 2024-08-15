@@ -12,8 +12,10 @@ int factorial(int n)
 }
 int main()
 {
-	int number = 6; // test solution
+	int number = 5; // test solution
 	int result = factorial(number);
 	printf("factorial of %d is %d\n", number, result);
 	return 0;
 }
+//output
+//factorial of 5 is 120
