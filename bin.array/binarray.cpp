@@ -24,7 +24,7 @@ void sortbinaryarray(int arr[], int size)
 }
 int main()
 {
-	int arr[] = { 0,1,0,0,1,0,0,0,0 };
+	int arr[] = { -1,- 0,1,1,-0,0,0 };
 	int size = sizeof(arr) / sizeof(arr[0]);
 	sortbinaryarray(arr, size);
 	for (int i = 0; i < size; i++)
@@ -33,5 +33,5 @@ int main()
 	}
 	return 0;
 }
-// expected output: 000000011
-// 000000011: output given
+// expected output: 0000111
+// 0000111: given output
