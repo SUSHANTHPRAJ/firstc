@@ -26,7 +26,7 @@ unsigned long long factorial_recursion(int n)
 }
 int main()
 {
-	int number = 4;
+	int number = -23;
 	unsigned long long loop_result = factorial_loop(number);
 	unsigned long long recursion_result = factorial_recursion(number);
 	printf("Factorial of %d using loop: %llu\n", number, loop_result);
@@ -34,5 +34,5 @@ int main()
 	return 0;
 }
 // output
-// Factorial of 4 using loop: 24
-// Factorial of 4 using recursion: 24
+// Factorial of -23 using loop: 0
+// Factorial of - 23 using recursion: 0
