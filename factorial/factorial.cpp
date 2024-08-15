@@ -13,10 +13,10 @@ int factorial(int n)
 }
 int main()
 {
-	int number =0 ; // test solution
+	int number =-23 ; // test solution
 	int result = factorial(number);
 	printf("factorial of %d is %d\n", number, result);
 	return 0;
 }
 //output
-//factorial of 0 is 1
+//factorial of -23 is 0
