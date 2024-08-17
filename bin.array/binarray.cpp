@@ -22,7 +22,7 @@ int main()
 {
 	int arr[] = { 1,0,1,0,1,0,0,1 };
 	int n = sizeof(arr) / sizeof(arr[0]);
-	sortbinaryarray(arr, n);
+	sortbinaryarray(arr,n);
 	printf("sorted binary array:");
 	for (int i = 0; i < n; i++)
 	{
