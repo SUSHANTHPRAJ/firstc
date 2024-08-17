@@ -30,3 +30,6 @@ int main()
 	}
 	return 0;
 }
+// test solution
+// expected output: 00001111
+// given output: 00001111
