@@ -20,7 +20,7 @@ void sortbinaryarray (int arr[], int n)
 }
 int main()
 {
-	int arr[] = { 6,8,3,4,2,5,7 };
+	int arr[] = { 0,0,0,0,0,0,0,0 };
 	int n = sizeof(arr) / sizeof(arr[0]);
 	sortbinaryarray(arr,n);
 	printf("sorted binary array:");
@@ -31,5 +31,5 @@ int main()
 	return 0;
 }
 // test solution
-// expected output: 1111111
-// given output: 1111111
+// expected output: 00000000
+// given output: 00000000
