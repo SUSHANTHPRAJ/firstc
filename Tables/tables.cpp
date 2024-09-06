@@ -20,9 +20,7 @@ void printTable(int n);
 int main()
 {
 	int n;
-	printf("enter a number:");
-	scanf_s("%d", &n);
-	printTable(n);
+	printTable(7);
 	return 0;
 }
 void printTable(int n)
