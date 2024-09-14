@@ -10,9 +10,10 @@ int fib(int n)
 	{
 		return 1;
 	}
-	int fibNm1 = fib(n - 1);
-	int fibNm2 = fib(n - 2);
-	int fibN = fibNm1 + fibNm2;
+	//int fibNm1 = fib(n - 1);
+	//int fibNm2 = fib(n - 2);
+	//int fibN = fibNm1 + fibNm2;
+	return fib(n - 1) + fib(n - 2);
 }
 int main()
 {
@@ -21,6 +22,7 @@ int main()
 	scanf_s("%d", &n);
 	for (int i = n; i <= 10; i++)
 	{
-		printf("The fib is %d \n", fib(i));
+		printf("The fib of %d is %d \n", n, fib(i));
+		n++;
 	}
 }
