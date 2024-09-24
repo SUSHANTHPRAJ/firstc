@@ -14,14 +14,20 @@ int factorial(int n)
 
 int main() 
 {
-	int n = -3;
+	int n = 7;
 	if (n<0)
 	{
-		printf("%d is invalid input. Number must be greater than zero", n);
+		for (int i = n; i < 1; i++)
+		{
+			printf("Factorial of %d is %d", i, factorial(i));
+		}
 	}
-	for (int i = n; i >= 1; i--) 
+	else
 	{
-		printf("Factorial of %d is %d\n", i, factorial(i));
+		for (int i = n; i >= 1; i--)
+		{
+			printf("Factorial of %d is %d\n", i, factorial(i));
+		}
 	}
 	return 0;
 }
